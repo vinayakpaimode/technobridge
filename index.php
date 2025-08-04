@@ -133,6 +133,78 @@
                             </li>
                         </ul>
                     </div>
+
+                    <section>
+                        <div class="contact-form">
+                            <form class="pure-form" action="">
+                                <div class="pure-g pure-row">
+                                    <div class="pure-u-1">
+                                        <h3>Contact us</h3>
+                                    </div>
+                                    <div class="pure-u-1 pure-u-md-1-1">
+                                        <label for="name">Name</label>
+                                        <input id="name" type="text" name="name">
+                                    </div>
+                                    <div class="pure-u-1 pure-u-md-1-1">
+                                        <label for="email">Email</label>
+                                        <input id="email" type="email" name="email">
+                                    </div>
+
+                                    <div class="pure-u-1 pure-u-md-1-1">
+                                        <label for="mobile-no">Mobile Number</label>
+                                        <input id="mobile-no" type="tel" name="mobile-no">
+                                    </div>
+                                    <div class="pure-u-1 pure-u-md-1-1">
+                                        <label for="state">State </label>
+                                        <select name="" id="state">
+                                            <option value="Maharashtra">Maharashtra</option>
+                                            <option value="Goa">Goa</option>
+                                            <option value="Karnataka">Karnataka</option>
+                                            <option value="Gujarat">Gujarat</option>
+                                            <option value="Kerala">Kerala</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="pure-u-1 pure-u-md-1-1">
+                                        <label for="gender">Gender </label>
+                                        <div>
+                                            <span>
+                                                <label>Male
+                                                    <input value="male" type="radio" name="gender">
+                                                </label>
+                                            </span>
+                                            <span>
+                                                <label>
+                                                    Female
+                                                    <input type="radio" name="gender"></label>
+                                            </span>
+                                            <span>
+                                                <label>Other
+                                                    <input type="radio" name="Other"></label>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="pure-u-1">
+                                        <label for="gender">Message </label>
+                                        <textarea name="message" id=""></textarea>
+                                    </div>
+                                    <div class="pure-u-1 pure-u-md-1-1">
+                                        <label for="captcha">What is <span id="captcha-question"></span>?</label>
+                                        <input type="text" id="captcha" name="captcha" required>
+                                        <small id="captcha-error" style="color:red; display:none;">Incorrect answer.
+                                            Try again.</small>
+                                    </div>
+
+                                    <div class="pure-u-1">
+                                        <input type="submit">
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </section>
+
                 </div>
                 <div class="pure-u-1 pure-u-lg-4-5">
                     <div id="description" class="content-wrapper">
@@ -419,76 +491,7 @@
                             </div>
                         </section>
 
-                        <section>
-                            <div class="contact-form">
-                                <form class="pure-form" action="">
-                                    <div class="pure-g pure-row">
-                                        <div class="pure-u-1">
-                                            <h3>Contact us</h3>
-                                        </div>
-                                        <div class="pure-u-1 pure-u-md-1-2">
-                                            <label for="name">Name</label>
-                                            <input id="name" type="text" name="name">
-                                        </div>
-                                        <div class="pure-u-1 pure-u-md-1-2">
-                                            <label for="email">Email</label>
-                                            <input id="email" type="email" name="email">
-                                        </div>
-
-                                        <div class="pure-u-1 pure-u-md-1-2">
-                                            <label for="mobile-no">Mobile Number</label>
-                                            <input id="mobile-no" type="tel" name="mobile-no">
-                                        </div>
-                                        <div class="pure-u-1 pure-u-md-1-2">
-                                            <label for="state">State </label>
-                                            <select name="" id="state">
-                                                <option value="Maharashtra">Maharashtra</option>
-                                                <option value="Goa">Goa</option>
-                                                <option value="Karnataka">Karnataka</option>
-                                                <option value="Gujarat">Gujarat</option>
-                                                <option value="Kerala">Kerala</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="pure-u-1 pure-u-md-1-2">
-                                            <label for="gender">Gender </label>
-                                            <div>
-                                                <span>
-                                                    <label>Male
-                                                        <input value="male" type="radio" name="gender">
-                                                    </label>
-                                                </span>
-                                                <span>
-                                                    <label>
-                                                        Female
-                                                        <input type="radio" name="gender"></label>
-                                                </span>
-                                                <span>
-                                                    <label>Other
-                                                        <input type="radio" name="Other"></label>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        <div class="pure-u-1">
-                                            <label for="gender">Message </label>
-                                            <textarea name="message" id=""></textarea>
-                                        </div>
-                                        <div class="pure-u-1 pure-u-md-1-2">
-                                            <label for="captcha">What is <span id="captcha-question"></span>?</label>
-                                            <input type="text" id="captcha" name="captcha" required>
-                                            <small id="captcha-error" style="color:red; display:none;">Incorrect answer.
-                                                Try again.</small>
-                                        </div>
-
-                                        <div class="pure-u-1">
-                                            <input type="submit">
-                                        </div>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </section>
+                        
 
 
 
