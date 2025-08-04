@@ -1,9 +1,9 @@
 <?php
 
 $host = 'localhost';
-$db = 'u989967598_eshop';
-$user = 'u989967598_eshop';
-$pass = 'U989967598_eshop';
+$db = 'technobridge_assignment';
+$user = 'root';
+$pass = '';
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
